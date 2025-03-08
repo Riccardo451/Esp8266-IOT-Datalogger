@@ -72,10 +72,15 @@ This project is a low-power ESP8266-based sensor data logger that collects tempe
 - **Wi-Fi Off When Idle**: Minimizes energy consumption between data transmissions.
 - **Optimized Wi-Fi Connection**: Reduces active Wi-Fi time.
 
-## Future Improvements
-- Add support for **additional sensors** (e.g., light, air quality, etc.).
-- Implement **MQTT** for real-time data streaming.
-- Improve **error handling** and retry mechanisms.
+## Data Output Example
+
+![Data Plots](Images/Data.png)
+
+## Expected Run Time
+
+The ESP8266 connects to Wi-Fi, reads sensors, pushes the results to ThingSpeak, and goes back to sleep in approximately 1300ms.
+
+![Elapsed Time](Images/Elapsed Time.png)
 
 ## License
 This project is licensed under the **MIT License**.
