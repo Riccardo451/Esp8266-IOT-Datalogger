@@ -80,7 +80,7 @@ This project is a low-power ESP8266-based sensor data logger that collects tempe
 
 The ESP8266 connects to Wi-Fi, reads sensors, pushes the results to ThingSpeak, and goes back to sleep in approximately 1300ms.
 
-![Elapsed Time](Images/Elapsed Time.png)
+![Elapsed Time](Images/Elapsed_Time.png)
 
 ## License
 This project is licensed under the **MIT License**.
